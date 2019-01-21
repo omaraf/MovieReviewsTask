@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02328C6421F11BB9005590AF /* ReviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02328C6321F11BB9005590AF /* ReviewTableViewCell.xib */; };
+		02328C6621F23E61005590AF /* ReviewWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02328C6521F23E61005590AF /* ReviewWebViewController.swift */; };
 		026532F921EFB2A400E0DA3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026532F821EFB2A400E0DA3B /* AppDelegate.swift */; };
 		026532FB21EFB2A400E0DA3B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026532FA21EFB2A400E0DA3B /* MasterViewController.swift */; };
 		026532FD21EFB2A400E0DA3B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026532FC21EFB2A400E0DA3B /* DetailViewController.swift */; };
@@ -14,6 +16,14 @@
 		0265330221EFB2B500E0DA3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0265330121EFB2B500E0DA3B /* Assets.xcassets */; };
 		0265330521EFB2B500E0DA3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0265330321EFB2B500E0DA3B /* LaunchScreen.storyboard */; };
 		0265331021EFB2B600E0DA3B /* BookReviewsTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0265330F21EFB2B600E0DA3B /* BookReviewsTaskTests.swift */; };
+		0265331F21EFB49E00E0DA3B /* BookReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0265331E21EFB49E00E0DA3B /* BookReview.swift */; };
+		0265332221EFB84400E0DA3B /* ReviewsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0265332121EFB84400E0DA3B /* ReviewsService.swift */; };
+		0265332421EFBE0D00E0DA3B /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0265332321EFBE0D00E0DA3B /* ReviewTableViewCell.swift */; };
+		02D3DC6721F26477003C30C2 /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D3DC6621F26477003C30C2 /* APIConfiguration.swift */; };
+		02D3DC6921F264B6003C30C2 /* ReviewsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D3DC6821F264B6003C30C2 /* ReviewsAPI.swift */; };
+		02D3DC7021F26D0E003C30C2 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02D3DC6F21F26D0E003C30C2 /* Secrets.plist */; };
+		62BCFCFD9176FCEDE1D1F816 /* Pods_BookReviewsTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E251E2AECD65582FDAECB4DE /* Pods_BookReviewsTask.framework */; };
+		B12C967EC2D67A114EC2AF47 /* Pods_BookReviewsTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748C3B9B3F3698DC7262AD65 /* Pods_BookReviewsTaskTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02328C6321F11BB9005590AF /* ReviewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReviewTableViewCell.xib; sourceTree = "<group>"; };
+		02328C6521F23E61005590AF /* ReviewWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewWebViewController.swift; sourceTree = "<group>"; };
 		026532F521EFB2A400E0DA3B /* BookReviewsTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookReviewsTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		026532F821EFB2A400E0DA3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		026532FA21EFB2A400E0DA3B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +50,18 @@
 		0265330B21EFB2B500E0DA3B /* BookReviewsTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookReviewsTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0265330F21EFB2B600E0DA3B /* BookReviewsTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReviewsTaskTests.swift; sourceTree = "<group>"; };
 		0265331121EFB2B600E0DA3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0265331E21EFB49E00E0DA3B /* BookReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReview.swift; sourceTree = "<group>"; };
+		0265332121EFB84400E0DA3B /* ReviewsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsService.swift; sourceTree = "<group>"; };
+		0265332321EFBE0D00E0DA3B /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
+		02D3DC6621F26477003C30C2 /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
+		02D3DC6821F264B6003C30C2 /* ReviewsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsAPI.swift; sourceTree = "<group>"; };
+		02D3DC6F21F26D0E003C30C2 /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
+		748C3B9B3F3698DC7262AD65 /* Pods_BookReviewsTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookReviewsTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89883575C51051D1A86CD40E /* Pods-BookReviewsTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookReviewsTaskTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookReviewsTaskTests/Pods-BookReviewsTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		C3FD39A04F24B7832CE0D8A2 /* Pods-BookReviewsTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookReviewsTaskTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookReviewsTaskTests/Pods-BookReviewsTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C421EFB80FA87D668F4AABAC /* Pods-BookReviewsTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookReviewsTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookReviewsTask/Pods-BookReviewsTask.release.xcconfig"; sourceTree = "<group>"; };
+		E251E2AECD65582FDAECB4DE /* Pods_BookReviewsTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookReviewsTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF7D9AA67602D951C2081C1 /* Pods-BookReviewsTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookReviewsTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookReviewsTask/Pods-BookReviewsTask.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62BCFCFD9176FCEDE1D1F816 /* Pods_BookReviewsTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B12C967EC2D67A114EC2AF47 /* Pods_BookReviewsTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +90,8 @@
 				026532F721EFB2A400E0DA3B /* BookReviewsTask */,
 				0265330E21EFB2B600E0DA3B /* BookReviewsTaskTests */,
 				026532F621EFB2A400E0DA3B /* Products */,
+				E0F0CB7FA8DD0AE59E2F31D7 /* Pods */,
+				343F0BDC95A722E3F58746E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +107,15 @@
 		026532F721EFB2A400E0DA3B /* BookReviewsTask */ = {
 			isa = PBXGroup;
 			children = (
+				0265332021EFB83400E0DA3B /* Services */,
+				0265331D21EFB41100E0DA3B /* Networking */,
+				0265331C21EFB40700E0DA3B /* Controllers */,
+				0265331B21EFB3F500E0DA3B /* Views */,
+				0265331A21EFB3F000E0DA3B /* Models */,
 				026532F821EFB2A400E0DA3B /* AppDelegate.swift */,
-				026532FA21EFB2A400E0DA3B /* MasterViewController.swift */,
-				026532FC21EFB2A400E0DA3B /* DetailViewController.swift */,
-				026532FE21EFB2A400E0DA3B /* Main.storyboard */,
 				0265330121EFB2B500E0DA3B /* Assets.xcassets */,
-				0265330321EFB2B500E0DA3B /* LaunchScreen.storyboard */,
 				0265330621EFB2B500E0DA3B /* Info.plist */,
+				02D3DC6F21F26D0E003C30C2 /* Secrets.plist */,
 			);
 			path = BookReviewsTask;
 			sourceTree = "<group>";
@@ -99,6 +129,72 @@
 			path = BookReviewsTaskTests;
 			sourceTree = "<group>";
 		};
+		0265331A21EFB3F000E0DA3B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0265331E21EFB49E00E0DA3B /* BookReview.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0265331B21EFB3F500E0DA3B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				026532FE21EFB2A400E0DA3B /* Main.storyboard */,
+				0265330321EFB2B500E0DA3B /* LaunchScreen.storyboard */,
+				0265332321EFBE0D00E0DA3B /* ReviewTableViewCell.swift */,
+				02328C6321F11BB9005590AF /* ReviewTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0265331C21EFB40700E0DA3B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				026532FA21EFB2A400E0DA3B /* MasterViewController.swift */,
+				026532FC21EFB2A400E0DA3B /* DetailViewController.swift */,
+				02328C6521F23E61005590AF /* ReviewWebViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0265331D21EFB41100E0DA3B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				02D3DC6621F26477003C30C2 /* APIConfiguration.swift */,
+				02D3DC6821F264B6003C30C2 /* ReviewsAPI.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0265332021EFB83400E0DA3B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0265332121EFB84400E0DA3B /* ReviewsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		343F0BDC95A722E3F58746E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E251E2AECD65582FDAECB4DE /* Pods_BookReviewsTask.framework */,
+				748C3B9B3F3698DC7262AD65 /* Pods_BookReviewsTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0F0CB7FA8DD0AE59E2F31D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECF7D9AA67602D951C2081C1 /* Pods-BookReviewsTask.debug.xcconfig */,
+				C421EFB80FA87D668F4AABAC /* Pods-BookReviewsTask.release.xcconfig */,
+				C3FD39A04F24B7832CE0D8A2 /* Pods-BookReviewsTaskTests.debug.xcconfig */,
+				89883575C51051D1A86CD40E /* Pods-BookReviewsTaskTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0265331421EFB2B600E0DA3B /* Build configuration list for PBXNativeTarget "BookReviewsTask" */;
 			buildPhases = (
+				9ED210EAB48F529B8F10373E /* [CP] Check Pods Manifest.lock */,
 				026532F121EFB2A400E0DA3B /* Sources */,
 				026532F221EFB2A400E0DA3B /* Frameworks */,
 				026532F321EFB2A400E0DA3B /* Resources */,
+				1EC3766A79D4A6896EB302A1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0265331721EFB2B600E0DA3B /* Build configuration list for PBXNativeTarget "BookReviewsTaskTests" */;
 			buildPhases = (
+				689636BD9A7063395870D1E5 /* [CP] Check Pods Manifest.lock */,
 				0265330721EFB2B500E0DA3B /* Sources */,
 				0265330821EFB2B500E0DA3B /* Frameworks */,
 				0265330921EFB2B500E0DA3B /* Resources */,
@@ -181,6 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0265330521EFB2B500E0DA3B /* LaunchScreen.storyboard in Resources */,
+				02328C6421F11BB9005590AF /* ReviewTableViewCell.xib in Resources */,
+				02D3DC7021F26D0E003C30C2 /* Secrets.plist in Resources */,
 				0265330221EFB2B500E0DA3B /* Assets.xcassets in Resources */,
 				0265330021EFB2A400E0DA3B /* Main.storyboard in Resources */,
 			);
@@ -195,13 +296,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EC3766A79D4A6896EB302A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BookReviewsTask/Pods-BookReviewsTask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityLogger/AlamofireNetworkActivityLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableAlamofire/CodableAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookReviewsTask/Pods-BookReviewsTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		689636BD9A7063395870D1E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookReviewsTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ED210EAB48F529B8F10373E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookReviewsTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		026532F121EFB2A400E0DA3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0265331F21EFB49E00E0DA3B /* BookReview.swift in Sources */,
+				0265332421EFBE0D00E0DA3B /* ReviewTableViewCell.swift in Sources */,
+				02D3DC6921F264B6003C30C2 /* ReviewsAPI.swift in Sources */,
+				0265332221EFB84400E0DA3B /* ReviewsService.swift in Sources */,
+				02D3DC6721F26477003C30C2 /* APIConfiguration.swift in Sources */,
 				026532FD21EFB2A400E0DA3B /* DetailViewController.swift in Sources */,
 				026532FB21EFB2A400E0DA3B /* MasterViewController.swift in Sources */,
+				02328C6621F23E61005590AF /* ReviewWebViewController.swift in Sources */,
 				026532F921EFB2A400E0DA3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +544,7 @@
 		};
 		0265331521EFB2B600E0DA3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECF7D9AA67602D951C2081C1 /* Pods-BookReviewsTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -380,6 +563,7 @@
 		};
 		0265331621EFB2B600E0DA3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C421EFB80FA87D668F4AABAC /* Pods-BookReviewsTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +582,7 @@
 		};
 		0265331821EFB2B600E0DA3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3FD39A04F24B7832CE0D8A2 /* Pods-BookReviewsTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -419,6 +604,7 @@
 		};
 		0265331921EFB2B600E0DA3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89883575C51051D1A86CD40E /* Pods-BookReviewsTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

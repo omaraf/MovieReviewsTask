@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AlamofireNetworkActivityLogger
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
@@ -20,6 +21,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count-1] as! UINavigationController
         navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
         splitViewController.delegate = self
+        
+        #if DEBUG
+        NetworkActivityLogger.shared.level = .debug
+        NetworkActivityLogger.shared.startLogging()
+        #endif
         return true
     }
 

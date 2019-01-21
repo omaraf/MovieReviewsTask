@@ -7,13 +7,24 @@
 //
 
 import UIKit
+import WebKit
 
 class ReviewWebViewController: UIViewController {
+    
+    @IBOutlet weak var reviewWebView: WKWebView!
+    var reviewUrl : String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        guard let reviewUrl = reviewUrl else {
+            dismiss(animated: true, completion: nil)
+            return
+        }
 
-        // Do any additional setup after loading the view.
+        let myURL = URL(string:reviewUrl)
+        let myRequest = URLRequest(url: myURL!)
+        reviewWebView.load(myRequest)
     }
     
 
@@ -26,5 +37,6 @@ class ReviewWebViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+
 
 }

@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (4.8.0)
+  - AlamofireNetworkActivityLogger (2.3.0):
+    - Alamofire (~> 4.6)
+  - CodableAlamofire (1.1.0):
+    - Alamofire (~> 4.0)
+  - Kingfisher (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireNetworkActivityLogger (~> 2.0)
+  - CodableAlamofire
+  - Kingfisher (~> 5.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireNetworkActivityLogger
+    - CodableAlamofire
+    - Kingfisher
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  AlamofireNetworkActivityLogger: 6f3076652ab7fa6c819b59be08ea038d339e36d8
+  CodableAlamofire: e2d2edcec7cf413f7862c30c8fa98eded27a83f9
+  Kingfisher: 4f771421b9208185217550528a06fd48756cb7c2
+
+PODFILE CHECKSUM: 382f44f72dd903ee06dd28d53e279062f24fb51b
+
+COCOAPODS: 1.5.3
